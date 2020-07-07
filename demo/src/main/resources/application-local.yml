@@ -1,0 +1,20 @@
+spring:
+  autoconfigure:
+    exclude: com.integralblue.log4jdbc.spring.Log4jdbcAutoConfiguration
+
+logging:
+  level:
+    jdbc:
+      sqltiming: info
+      resultsettable: info
+      sqlonly: fatal
+      audit: fatal
+      resultset: fatal
+      connection: fatal
+
+log4jdbc:
+  dump.sql:
+    addsemicolon: true
+    maxlinelength: 0
+  trim.sql:
+    extrablanklines: false

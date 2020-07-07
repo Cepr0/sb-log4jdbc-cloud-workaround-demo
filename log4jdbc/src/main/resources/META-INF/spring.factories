@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.github.cepr0.log4jdbc.Log4jdbcConfiguration
